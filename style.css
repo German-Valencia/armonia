@@ -94,7 +94,7 @@ nav {
 }
 
 .btn {
-    background: rgb(59, 56, 56);
+    background: black;
     padding: 10px 20px;
     color: rgba(202, 55, 74, 255);
     border: 1px solid rgba(202, 55, 74, 255);
@@ -379,21 +379,25 @@ nav {
 .contact-row {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .contact-left-col {
-    flex-basis: 50%;
-    padding-top: 50px;
-    padding-left: 200px;
+    flex-basis: 50%;    
+    padding-left: 200px;    
 }
 
 .contact-left-col h2 {
     text-align: center;
+    
 }
 
-.contact-left-col img {
-    width: 100%;
+.contact-left-col div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
 }
 
 .contact-right-col {
@@ -407,11 +411,10 @@ nav {
     color: black;
 }
 
-
 .contact-right-col i {
     font-size: 20px;
     padding: 10px;
-    background: #74b9ff;
+    background: rgba(202,55,74,255);
     color: white;
 
 }
@@ -420,6 +423,37 @@ nav {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+#wapp{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.map{
+    display: flex;
+    flex-direction: column;    
+}
+
+.map h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.map img{
+    display:block;
+margin:auto;
+    border: solid 1px rgba(202,55,74,255);
+    width: 80%;
+}
+
+
 
 
 #footer {
@@ -461,8 +495,6 @@ textarea {
     padding: 10px;
     margin-bottom: 10px;
 }
-
-
 
 .c_btn {
     background: black;
